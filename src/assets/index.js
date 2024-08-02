@@ -37,13 +37,16 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import meta from './tech/meta.png';
 
 import coverhunt from './company/coverhunt.png';
+import farmsetu from './company/farmsetu.svg';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
 import komikult from './projects/komikult.png';
+import todo from './projects/todo.png';
 import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
@@ -86,7 +89,9 @@ export {
   redux,
   tailwind,
   typescript,
+  meta,
   komikult,
+  todo,
   leaderboard,
   math,
   movie,
@@ -96,4 +101,5 @@ export {
   dcc,
   kelhel,
   microverse,
+  farmsetu,
 };

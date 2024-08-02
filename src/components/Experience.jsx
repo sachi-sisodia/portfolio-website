@@ -68,7 +68,7 @@ const Experience = () => {
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
           ))}
-          <VerticalTimelineElement
+          {/* <VerticalTimelineElement
             contentStyle={{
               background: '#eaeaec',
               color: '#292929',
@@ -90,8 +90,8 @@ const Experience = () => {
                   className="w-[45%] h-[45%] object-contain"
                 />
               </div>
-            }>
-            <button
+            }> */}
+            {/* <button
               className="live-demo flex justify-between 
               sm:text-[18px] text-[14px] text-timberWolf 
               font-bold font-beckman items-center py-5 pl-3 pr-3 
@@ -102,7 +102,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'resume link', //paste the link to your resume here
+                  './personal/resume.pdf', //paste the link to your resume here
                   '_blank'
                 )
               }
@@ -123,8 +123,8 @@ const Experience = () => {
                 className="download-btn sm:w-[26px] sm:h-[26px] 
                 w-[23px] h-[23px] object-contain"
               />
-            </button>
-          </VerticalTimelineElement>
+            </button> */}
+          {/* </VerticalTimelineElement> */}
         </VerticalTimeline>
       </div>
     </>
